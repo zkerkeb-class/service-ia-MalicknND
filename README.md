@@ -1,58 +1,58 @@
-# Service IA - Génération d'Images
+# AI Service - Image Generation
 
-Ce service fait partie d'une architecture microservices et est responsable de la génération d'images à l'aide de l'API Stability AI.
+This service is part of a microservices architecture and is responsible for generating images using the Stability AI API.
 
-## 🚀 Fonctionnalités
+## 🚀 Features
 
-- Génération d'images à partir de descriptions textuelles (prompts)
-- Support de la génération d'images multiples
-- Validation des paramètres de génération
-- Gestion des erreurs robuste
-- Logging complet des opérations
+- Image generation from text descriptions (prompts)
+- Support for multiple image generation
+- Parameter validation
+- Robust error handling
+- Comprehensive logging
 
-## 🛠️ Technologies Utilisées
+## 🛠️ Technologies Used
 
 - Node.js
 - Express.js
 - Stability AI API
 - Winston (logging)
 - Express Validator
-- Helmet (sécurité)
+- Helmet (security)
 - CORS
-- Morgan (logging HTTP)
+- Morgan (HTTP logging)
 
-## 📁 Structure du Projet
+## 📁 Project Structure
 
 ```
 src/
-├── controllers/     # Contrôleurs de l'application
-├── middleware/      # Middlewares Express
-├── routes/         # Routes de l'API
-├── services/       # Services métier
-├── utils/          # Utilitaires et helpers
-└── server.js       # Point d'entrée de l'application
+├── controllers/     # Application controllers
+├── middleware/      # Express middlewares
+├── routes/         # API routes
+├── services/       # Business services
+├── utils/          # Utilities and helpers
+└── server.js       # Application entry point
 ```
 
 ## 🔧 Configuration
 
-1. Créer un fichier `.env` à la racine du projet avec les variables suivantes :
+1. Create a `.env` file in the project root with the following variables:
 
 ```env
 PORT=3000
-STABILITY_API_KEY=votre_clé_api
+STABILITY_API_KEY=your_api_key
 STABILITY_API_URL=https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image
 ```
 
 ## 🚀 Installation
 
 ```bash
-# Installation des dépendances
+# Install dependencies
 npm install
 
-# Démarrage du serveur en mode développement
+# Start server in development mode
 npm run dev
 
-# Démarrage du serveur en mode production
+# Start server in production mode
 npm start
 ```
 
@@ -60,56 +60,56 @@ npm start
 
 ### POST /api/images/generate
 
-Génère une ou plusieurs images à partir d'une description textuelle.
+Generates one or multiple images from a text description.
 
-**Paramètres de requête :**
+**Request Parameters:**
 ```json
 {
-  "prompt": "Description de l'image",
-  "width": 1024,      // Optionnel, par défaut: 1024
-  "height": 1024,     // Optionnel, par défaut: 1024
-  "samples": 1,       // Optionnel, par défaut: 1
-  "steps": 30,        // Optionnel, par défaut: 30
-  "cfgScale": 7       // Optionnel, par défaut: 7
+  "prompt": "Image description",
+  "width": 1024,      // Optional, default: 1024
+  "height": 1024,     // Optional, default: 1024
+  "samples": 1,       // Optional, default: 1
+  "steps": 30,        // Optional, default: 30
+  "cfgScale": 7       // Optional, default: 7
 }
 ```
 
-**Contraintes de validation :**
-- `prompt` : Requis
-- `width` : Entre 512 et 2048 pixels
-- `height` : Entre 512 et 2048 pixels
-- `samples` : Entre 1 et 4
-- `steps` : Entre 10 et 50
-- `cfgScale` : Entre 0 et 35
+**Validation Constraints:**
+- `prompt`: Required
+- `width`: Between 512 and 2048 pixels
+- `height`: Between 512 and 2048 pixels
+- `samples`: Between 1 and 4
+- `steps`: Between 10 and 50
+- `cfgScale`: Between 0 and 35
 
-**Réponse :**
-- Pour une seule image : Retourne directement l'image en PNG
-- Pour plusieurs images : Retourne un tableau d'objets contenant les informations des images générées
+**Response:**
+- For a single image: Returns the image directly in PNG format
+- For multiple images: Returns an array of objects containing the generated images information
 
-## 🔒 Sécurité
+## 🔒 Security
 
-- Protection CORS configurée
-- Headers de sécurité avec Helmet
-- Validation des entrées avec Express Validator
-- Gestion sécurisée des clés API via variables d'environnement
+- CORS protection configured
+- Security headers with Helmet
+- Input validation with Express Validator
+- Secure API key management through environment variables
 
 ## 📊 Logging
 
-- Logs HTTP avec Morgan
-- Logs applicatifs avec Winston
-- Gestion des erreurs centralisée
+- HTTP logging with Morgan
+- Application logging with Winston
+- Centralized error handling
 
-## 🧪 Tests
+## 🧪 Testing
 
 ```bash
-# Exécution des tests
+# Run tests
 npm test
 
-# Exécution des tests avec couverture
+# Run tests with coverage
 npm run test:coverage
 ```
 
-## 📦 Dépendances Principales
+## 📦 Main Dependencies
 
 - express: ^4.18.2
 - axios: ^1.6.0
@@ -120,14 +120,14 @@ npm run test:coverage
 - morgan: ^1.10.0
 - dotenv: ^16.3.1
 
-## 🤝 Contribution
+## 🤝 Contributing
 
-1. Fork le projet
-2. Créer une branche pour votre fonctionnalité (`git checkout -b feature/AmazingFeature`)
-3. Commit vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## 📄 Licence
+## 📄 License
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
