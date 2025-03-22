@@ -1,0 +1,58 @@
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T14:16:49.818Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T14:17:09.332Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T14:17:12.742Z"}
+{"level":"info","message":"Génération d'image avec prompt: Un paysage montagneux avec un lac au coucher du soleil, style hyperréaliste","timestamp":"2025-03-22T14:18:51.745Z"}
+{"level":"error","message":"Erreur Stability AI: Request failed with status code 404","timestamp":"2025-03-22T14:18:51.994Z"}
+{"level":"error","message":"Erreur lors de la génération d'image: Not Found","timestamp":"2025-03-22T14:18:51.995Z"}
+{"level":"error","message":"404 - Not Found","timestamp":"2025-03-22T14:18:51.996Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T14:20:37.064Z"}
+{"level":"info","message":"Génération d'image avec prompt: Un paysage montagneux avec un lac au coucher du soleil, style hyperréaliste","timestamp":"2025-03-22T14:21:22.282Z"}
+{"level":"error","message":"Erreur Stability AI: Request failed with status code 404","timestamp":"2025-03-22T14:21:22.745Z"}
+{"level":"error","message":"Erreur lors de la génération d'image: Not Found","timestamp":"2025-03-22T14:21:22.746Z"}
+{"level":"error","message":"404 - Not Found","timestamp":"2025-03-22T14:21:22.748Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T14:23:20.022Z"}
+{"level":"info","message":"Génération d'image avec prompt: Un paysage montagneux avec un lac au coucher du soleil, style hyperréaliste","timestamp":"2025-03-22T14:23:23.258Z"}
+{"level":"error","message":"Erreur Stability AI: Request failed with status code 403","timestamp":"2025-03-22T14:23:25.524Z"}
+{"level":"error","message":"Erreur lors de la génération d'image: English is the only language supported for this service.","timestamp":"2025-03-22T14:23:25.526Z"}
+{"level":"error","message":"403 - English is the only language supported for this service.","timestamp":"2025-03-22T14:23:25.527Z"}
+{"level":"info","message":"Génération d'image avec prompt: A mountainous landscape with a lake at sunset, hyperrealistic style.","timestamp":"2025-03-22T14:24:26.754Z"}
+{"level":"info","message":"Génération d'image avec prompt: A mountainous landscape with a lake at sunset, hyperrealistic style.","timestamp":"2025-03-22T14:41:41.108Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T14:59:30.952Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T14:59:40.978Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T15:00:11.047Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T15:00:13.923Z"}
+{"level":"info","message":"Génération d'image avec prompt: A mountainous landscape with a lake at sunset, hyperrealistic style.","timestamp":"2025-03-22T15:00:19.913Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T15:02:18.857Z"}
+{"level":"info","message":"Génération d'image avec prompt: A mountainous landscape with a lake at sunset, hyperrealistic style.","timestamp":"2025-03-22T15:09:04.488Z"}
+{"level":"error","message":"Erreur Stability AI: Request failed with status code 400","timestamp":"2025-03-22T15:09:04.768Z"}
+{"level":"error","message":"Erreur lors de la génération d'image: for stable-diffusion-xl-1024-v0-9 and stable-diffusion-xl-1024-v1-0 the allowed dimensions are 1024x1024, 1152x896, 1216x832, 1344x768, 1536x640, 640x1536, 768x1344, 832x1216, 896x1152, but we received 512x512","timestamp":"2025-03-22T15:09:04.769Z"}
+{"level":"error","message":"400 - for stable-diffusion-xl-1024-v0-9 and stable-diffusion-xl-1024-v1-0 the allowed dimensions are 1024x1024, 1152x896, 1216x832, 1344x768, 1536x640, 640x1536, 768x1344, 832x1216, 896x1152, but we received 512x512","timestamp":"2025-03-22T15:09:04.770Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T15:10:52.812Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T15:10:54.040Z"}
+{"level":"info","message":"Génération d'image avec prompt: A mountainous landscape with a lake at sunset, hyperrealistic style.","timestamp":"2025-03-22T15:12:45.773Z"}
+{"level":"info","message":"Génération d'image avec prompt: A mountainous landscape with a lake at sunset, hyperrealistic style.","timestamp":"2025-03-22T15:14:05.601Z"}
+{"level":"info","message":"Génération d'image avec prompt: ~*~aesthetic~*~ #boho #fashion, full-body 30-something woman laying on microfloral grass, candid pose, overlay reads Stable Diffusion 3.5, cheerful cursive typography font","timestamp":"2025-03-22T15:14:45.965Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T15:18:18.004Z"}
+{"level":"info","message":"Génération d'image avec prompt: A developer working at their desk, nighttime, hd, neon lighting.","timestamp":"2025-03-22T15:23:42.908Z"}
+{"level":"info","message":"Génération d'image avec prompt: A developer working at their desk, nighttime, hd, neon lighting.","timestamp":"2025-03-22T15:24:26.295Z"}
+{"level":"info","message":"Génération d'image avec prompt: A developer working at their desk, nighttime, hd, neon lighting.","timestamp":"2025-03-22T15:29:46.588Z"}
+{"level":"error","message":"Erreur Stability AI: Request failed with status code 400","timestamp":"2025-03-22T15:29:46.758Z"}
+{"level":"error","message":"Erreur lors de la génération d'image: for stable-diffusion-xl-1024-v0-9 and stable-diffusion-xl-1024-v1-0 the allowed dimensions are 1024x1024, 1152x896, 1216x832, 1344x768, 1536x640, 640x1536, 768x1344, 832x1216, 896x1152, but we received 512x1024","timestamp":"2025-03-22T15:29:46.759Z"}
+{"level":"error","message":"400 - for stable-diffusion-xl-1024-v0-9 and stable-diffusion-xl-1024-v1-0 the allowed dimensions are 1024x1024, 1152x896, 1216x832, 1344x768, 1536x640, 640x1536, 768x1344, 832x1216, 896x1152, but we received 512x1024","timestamp":"2025-03-22T15:29:46.759Z"}
+{"level":"info","message":"Génération d'image avec prompt: A developer working at their desk, nighttime, hd, neon lighting.","timestamp":"2025-03-22T15:29:50.006Z"}
+{"level":"error","message":"Erreur Stability AI: Request failed with status code 400","timestamp":"2025-03-22T15:29:50.138Z"}
+{"level":"error","message":"Erreur lors de la génération d'image: for stable-diffusion-xl-1024-v0-9 and stable-diffusion-xl-1024-v1-0 the allowed dimensions are 1024x1024, 1152x896, 1216x832, 1344x768, 1536x640, 640x1536, 768x1344, 832x1216, 896x1152, but we received 512x1024","timestamp":"2025-03-22T15:29:50.138Z"}
+{"level":"error","message":"400 - for stable-diffusion-xl-1024-v0-9 and stable-diffusion-xl-1024-v1-0 the allowed dimensions are 1024x1024, 1152x896, 1216x832, 1344x768, 1536x640, 640x1536, 768x1344, 832x1216, 896x1152, but we received 512x1024","timestamp":"2025-03-22T15:29:50.139Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T17:06:30.574Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T18:04:48.193Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T21:58:31.982Z"}
+{"level":"info","message":"Génération d'image avec prompt: test","timestamp":"2025-03-22T21:58:41.186Z"}
+{"level":"error","message":"Erreur Stability AI: Request failed with status code 400","timestamp":"2025-03-22T21:58:41.729Z"}
+{"level":"error","message":"Erreur lors de la génération d'image: for stable-diffusion-xl-1024-v0-9 and stable-diffusion-xl-1024-v1-0 the allowed dimensions are 1024x1024, 1152x896, 1216x832, 1344x768, 1536x640, 640x1536, 768x1344, 832x1216, 896x1152, but we received 512x1024","timestamp":"2025-03-22T21:58:41.730Z"}
+{"level":"error","message":"400 - for stable-diffusion-xl-1024-v0-9 and stable-diffusion-xl-1024-v1-0 the allowed dimensions are 1024x1024, 1152x896, 1216x832, 1344x768, 1536x640, 640x1536, 768x1344, 832x1216, 896x1152, but we received 512x1024","timestamp":"2025-03-22T21:58:41.730Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T22:05:42.671Z"}
+{"level":"info","message":"Serveur démarré sur le port 9000","timestamp":"2025-03-22T22:08:01.535Z"}
+{"level":"info","message":"Génération d'image avec prompt: testt","timestamp":"2025-03-22T22:08:25.403Z"}
+{"level":"error","message":"Erreur Stability AI: Request failed with status code 400","timestamp":"2025-03-22T22:08:25.923Z"}
+{"level":"error","message":"Erreur lors de la génération d'image: for stable-diffusion-xl-1024-v0-9 and stable-diffusion-xl-1024-v1-0 the allowed dimensions are 1024x1024, 1152x896, 1216x832, 1344x768, 1536x640, 640x1536, 768x1344, 832x1216, 896x1152, but we received 512x1024","timestamp":"2025-03-22T22:08:25.924Z"}
+{"level":"error","message":"400 - for stable-diffusion-xl-1024-v0-9 and stable-diffusion-xl-1024-v1-0 the allowed dimensions are 1024x1024, 1152x896, 1216x832, 1344x768, 1536x640, 640x1536, 768x1344, 832x1216, 896x1152, but we received 512x1024","timestamp":"2025-03-22T22:08:25.924Z"}
