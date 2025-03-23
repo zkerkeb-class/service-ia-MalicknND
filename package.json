@@ -1,5 +1,5 @@
 {
-  "name": "stability-ai-api",
+  "name": "service-ia-malicknnd",
   "version": "1.0.0",
   "description": "API pour l'intégration du modèle Stability-AI / Stable Diffusion 3.5 Large",
   "main": "src/server.js",
